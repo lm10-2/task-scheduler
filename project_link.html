@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Submission — DAG Task Scheduler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        @page { margin: 1.2in; size: A4; }
+        body {
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            color: #1a1a2e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 85vh;
+            margin: 0;
+            padding: 40px;
+            background: #ffffff;
+        }
+        .card {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 26pt;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: #1a1a2e;
+            letter-spacing: -0.5px;
+        }
+        h1 span { color: #00b4d8; }
+        
+        .subtitle {
+            font-size: 11pt;
+            color: #4b5563;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .link-box {
+            display: block;
+            margin: 40px auto 30px;
+            padding: 24px;
+            border: 2px solid #00b4d8;
+            border-radius: 16px;
+            background: #f0faff;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .link-box:hover {
+            background: #e0f2fe;
+            transform: translateY(-2px);
+        }
+        .link-label {
+            font-size: 9pt;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #6b7280;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .link-url {
+            font-size: 16pt;
+            font-weight: 800;
+            color: #00b4d8;
+            word-break: break-all;
+        }
+        
+        .meta-info {
+            font-size: 11pt;
+            color: #374151;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+        .meta-info strong {
+            color: #111827;
+        }
+        
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+        
+        .badge {
+            border: 1.5px solid #00b4d8;
+            padding: 6px 16px;
+            border-radius: 100px;
+            color: #00b4d8;
+            font-size: 9.5pt;
+            font-weight: 600;
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>DAG Task <span>Scheduler</span></h1>
+        <div class="subtitle">Dependency Resolution Engine & Critical Path Visualizer</div>
+
+        <a class="link-box" href="https://github.com/lm10-2/task-scheduler" target="_blank">
+            <div class="link-label">GitHub Repository</div>
+            <div class="link-url">github.com/lm10-2/task-scheduler</div>
+        </a>
+
+        <div class="meta-info">
+            <div><strong>Author:</strong> lm10-2</div>
+            <div style="margin-top: 4px;"><strong>Languages:</strong> C++17 • HTML5 • CSS3 • JavaScript &nbsp;|&nbsp; <strong>Date:</strong> June 2026</div>
+        </div>
+
+        <div class="badge-container">
+            <span class="badge">Kahn's Algorithm</span>
+            <span class="badge">Directed Acyclic Graph (DAG)</span>
+            <span class="badge">Topological Sort</span>
+            <span class="badge">Critical Path Method</span>
+            <span class="badge">Cycle Detection (DFS)</span>
+            <span class="badge">Parallel Wave Scheduling</span>
+        </div>
+    </div>
+</body>
+</html>
