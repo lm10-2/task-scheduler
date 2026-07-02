@@ -1,0 +1,43 @@
+# Build directories and binaries
+build/
+bin/
+*.exe
+*.o
+*.obj
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeTargetDirectories.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln
+*.vcxproj
+*.filters
+*.db
+*.opendb
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp/test files
+dag_test_tmp.txt
+*tmp*
